@@ -61,6 +61,10 @@ If you wish to integrate with a specific event-loop you can define `USE_ASIO` or
 * Homebrew: `brew install openssl zlib libuv`
 * Vcpkg: `vcpkg install openssl zlib libuv` *and/or* `vcpkg install openssl:x64-windows zlib:x64-windows libuv:x64-windows`
 
+Want static libs on Windows ? run this : 
+
+`vcpkg  install openssl:x64-windows-static zlib:x64-windows-static libuv:x64-windows-static`
+
 #### Compilation
 ###### OS X & Linux
 * `make`
